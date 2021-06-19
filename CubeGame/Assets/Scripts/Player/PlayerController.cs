@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
  
 
-public class TesteCena : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     enum BotaoQueFoiApertado
     {

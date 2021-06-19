@@ -9,12 +9,12 @@ public class MudarBotoes : MonoBehaviour
     [SerializeField]
     private string SenaJogo;
     [SerializeField]
-    TesteCena _PrefabPlayer;//vai editar o prefab
+    PlayerController _PrefabPlayer;//vai editar o prefab
     [SerializeField]
     TextMeshProUGUI[] Botoes;//bote quantos botoes sao atraz do inspector
 
     [SerializeField]
-    TesteCena _Inputs;//vai receber o inputs do jogador 
+    PlayerController _Inputs;//vai receber o inputs do jogador 
 
     private void Start()
     {

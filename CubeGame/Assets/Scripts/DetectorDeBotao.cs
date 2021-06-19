@@ -10,7 +10,7 @@ public class DetectorDeBotao : MonoBehaviour
     
 
     [SerializeField]
-    TesteCena _Mudar;
+    PlayerController _Mudar;
     void Start()
     {
         
